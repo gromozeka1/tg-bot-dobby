@@ -1,0 +1,26 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# runtime
+data/
+logs/
+backups/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# editors / OS
+.idea/
+.vscode/
+Thumbs.db

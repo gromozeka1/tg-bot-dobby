@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dobby-bot"
+version = "0.1.0"
+description = "Dobby — Telegram birthday and anniversary bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.22,<4",
+    "SQLAlchemy[asyncio]>=2.0.36,<3",
+    "alembic>=1.14,<2",
+    "aiosqlite>=0.20",
+    "APScheduler>=3.11,<4",
+    "pydantic-settings>=2.6,<3",
+    "loguru>=0.7,<1",
+    "babel>=2.16,<3",
+    "tzdata>=2025.2",
+    "polib>=1.2,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "time-machine>=2.16",
+    "ruff>=0.9",
+]
+
+[project.scripts]
+dobby = "dobby.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dobby = ["locales/**/*.po", "locales/**/*.mo"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
+ignore = ["E501"]

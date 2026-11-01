@@ -1,0 +1,851 @@
+# Translations template for Dobby.
+# Copyright (C) 2026 Dobby
+# This file is distributed under the same license as the Dobby project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dobby VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-01 11:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: src/dobby/bot/dispatcher.py:35
+#, python-brace-format
+msgid "⚠️ Bot error: {error}"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:23
+msgid "📅 Today"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:23
+msgid "👥 Contacts"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:25
+msgid "🎉 Anniversaries"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:26
+msgid "🔔 Subscriptions"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:28
+msgid "⚙️ Settings"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:28
+msgid "➕ Add"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:36
+msgid "🎂 Contact"
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:50 src/dobby/bot/keyboards.py:37
+msgid "💍 Anniversary"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:38 src/dobby/bot/keyboards.py:87
+#: src/dobby/bot/keyboards.py:133 src/dobby/bot/keyboards.py:280
+#: src/dobby/bot/keyboards.py:344 src/dobby/bot/keyboards.py:361
+#: src/dobby/bot/keyboards.py:375 src/dobby/bot/keyboards.py:385
+msgid "⬅️ Back"
+msgstr ""
+
+#: src/dobby/bot/handlers/common.py:46 src/dobby/bot/keyboards.py:45
+#: src/dobby/bot/keyboards.py:68 src/dobby/bot/keyboards.py:88
+#: src/dobby/bot/keyboards.py:114 src/dobby/bot/keyboards.py:134
+#: src/dobby/bot/keyboards.py:249 src/dobby/bot/keyboards.py:282
+#: src/dobby/bot/keyboards.py:334
+msgid "🏠 Main menu"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:62 src/dobby/bot/keyboards.py:106
+#: src/dobby/bot/keyboards.py:222
+msgid "⬅️ Prev"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:65 src/dobby/bot/keyboards.py:109
+#: src/dobby/bot/keyboards.py:229
+msgid "Next ➡️"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:67
+msgid "➕ Add contact"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:76
+msgid "✏️ Name"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:77 src/dobby/bot/keyboards.py:123
+msgid "📅 Date"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:81 src/dobby/bot/keyboards.py:127
+msgid "🔔 Unmute"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:81 src/dobby/bot/keyboards.py:127
+msgid "🔕 Mute"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:84 src/dobby/bot/keyboards.py:130
+msgid "🗑 Delete"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:112
+msgid "➕ Add anniversary"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:122
+msgid "✏️ Title"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:141
+msgid "✅ Save"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:142
+msgid "❌ Cancel"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:149
+msgid "Family"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:150
+msgid "Friend"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:151
+msgid "Colleague"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:152
+msgid "Other"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:153
+msgid "Skip"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:160
+msgid "💍 Wedding"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:161
+msgid "🕯 Memorial"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:162
+msgid "🎉 Custom"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:56 src/dobby/bot/keyboards.py:169
+msgid "🔁 Every year"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:56 src/dobby/bot/keyboards.py:170
+msgid "1️⃣ Once"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:181
+msgid "📩 Digest only"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:203
+msgid "All"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:204
+msgid "🎂 Birthdays"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:205
+msgid "💍 Anniversaries"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:206
+msgid "🔕 Muted"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:237
+msgid "ℹ️ Bind a group first"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:243
+msgid "🔕 Mute all birthdays"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:246
+msgid "🔔 Unmute all"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:262 src/dobby/bot/keyboards.py:312
+msgid "Digest"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:268 src/dobby/bot/keyboards.py:316
+msgid "Group"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:274
+msgid "Direct"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:55 src/dobby/bot/keyboards.py:291
+#, python-brace-format
+msgid "🕘 Digest time: {time}"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:56 src/dobby/bot/keyboards.py:297
+#, python-brace-format
+msgid "🌍 Time zone: {zone}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:57
+#: src/dobby/bot/handlers/anniversaries.py:58
+#: src/dobby/bot/handlers/anniversaries.py:59
+#: src/dobby/bot/handlers/contacts.py:62 src/dobby/bot/handlers/contacts.py:65
+#: src/dobby/bot/handlers/contacts.py:68 src/dobby/bot/handlers/settings.py:50
+#: src/dobby/bot/handlers/settings.py:61 src/dobby/bot/handlers/settings.py:64
+#: src/dobby/bot/handlers/subscriptions.py:56
+#: src/dobby/bot/handlers/subscriptions.py:57
+#: src/dobby/bot/handlers/subscriptions.py:58 src/dobby/bot/keyboards.py:301
+msgid "on"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:57
+#: src/dobby/bot/handlers/anniversaries.py:58
+#: src/dobby/bot/handlers/anniversaries.py:59
+#: src/dobby/bot/handlers/contacts.py:62 src/dobby/bot/handlers/contacts.py:65
+#: src/dobby/bot/handlers/contacts.py:68 src/dobby/bot/handlers/settings.py:50
+#: src/dobby/bot/handlers/settings.py:61 src/dobby/bot/handlers/settings.py:64
+#: src/dobby/bot/handlers/subscriptions.py:56
+#: src/dobby/bot/handlers/subscriptions.py:57
+#: src/dobby/bot/handlers/subscriptions.py:58 src/dobby/bot/keyboards.py:301
+msgid "off"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:57 src/dobby/bot/keyboards.py:304
+#, python-brace-format
+msgid "⏰ Reminder: {state} ({days} d)"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:66 src/dobby/bot/keyboards.py:322
+#, python-brace-format
+msgid "🌐 Language: {lang}"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:331
+msgid "ℹ️ How to bind a group"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:343
+msgid "✏️ Custom time"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:351
+msgid "Minsk (UTC+3)"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:352
+msgid "Moscow (UTC+3)"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:353
+msgid "Warsaw"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:354
+msgid "Kyiv"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:355
+msgid "UTC"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:369
+msgid "Reminder enabled"
+msgstr ""
+
+#: src/dobby/bot/keyboards.py:374
+msgid "days"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:55
+#, python-brace-format
+msgid "🎗 {kind}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:57
+#: src/dobby/bot/handlers/contacts.py:62 src/dobby/bot/handlers/settings.py:60
+#: src/dobby/bot/handlers/subscriptions.py:56
+#, python-brace-format
+msgid "📩 Digest: {state}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:58
+#: src/dobby/bot/handlers/contacts.py:65 src/dobby/bot/handlers/settings.py:63
+#: src/dobby/bot/handlers/subscriptions.py:57
+#, python-brace-format
+msgid "🎉 Group: {state}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:59
+#: src/dobby/bot/handlers/contacts.py:68
+#: src/dobby/bot/handlers/subscriptions.py:58
+#, python-brace-format
+msgid "✉️ Direct: {state}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:85
+#, python-brace-format
+msgid "🎉 Anniversaries ({total})"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:89
+msgid "No anniversaries yet. Add the first one with /addanniversary."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:116
+msgid "What is the occasion? For example: Wedding, Mom's memorial, First date."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:129
+#: src/dobby/bot/handlers/anniversaries.py:383
+msgid "Please send a title up to 255 characters."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:133
+msgid "Date? For example 12.05 or 12.05.2015."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:142
+#: src/dobby/bot/handlers/anniversaries.py:415
+msgid "Invalid date. Try 12.05 or 12.05.2015."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:148
+msgid "What kind of date is this?"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:164
+msgid "Start year? Send «-» if you don't know."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:169
+#: src/dobby/bot/handlers/anniversaries.py:189
+msgid "Repeat every year?"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:182
+#: src/dobby/bot/handlers/anniversaries.py:185
+msgid "Invalid year. Send a year like 2015 or «-»."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:203
+#: src/dobby/bot/handlers/contacts.py:196
+msgid "Where should I congratulate?"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:219
+#: src/dobby/bot/handlers/contacts.py:212
+msgid "This group is no longer available."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:230
+#: src/dobby/bot/handlers/contacts.py:225
+msgid "Digest only"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:232
+#: src/dobby/bot/handlers/contacts.py:227
+msgid "Check the data:"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:233
+#, python-brace-format
+msgid "Title: {title}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:235
+#: src/dobby/bot/handlers/contacts.py:230
+#, python-brace-format
+msgid "Date: {date}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:237
+#, python-brace-format
+msgid "Kind: {kind}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:239
+#, python-brace-format
+msgid "Repeat: {value}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:240
+msgid "every year"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:240
+msgid "once"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:243
+#: src/dobby/bot/handlers/contacts.py:234
+#, python-brace-format
+msgid "Group: {chat}"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:255
+#: src/dobby/bot/handlers/contacts.py:246
+msgid "Cancelled. Nothing was saved."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:280
+#: src/dobby/bot/handlers/contacts.py:266
+#: src/dobby/bot/handlers/settings.py:114
+#: src/dobby/bot/handlers/settings.py:165
+#: src/dobby/bot/handlers/settings.py:185
+#: src/dobby/bot/handlers/settings.py:203
+#: src/dobby/bot/handlers/settings.py:216
+#: src/dobby/bot/handlers/settings.py:227
+#: src/dobby/bot/handlers/settings.py:252
+msgid "Saved."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:282
+#: src/dobby/bot/handlers/anniversaries.py:394
+#: src/dobby/bot/handlers/anniversaries.py:429
+#: src/dobby/bot/handlers/contacts.py:268
+#: src/dobby/bot/handlers/contacts.py:382
+#: src/dobby/bot/handlers/contacts.py:419
+#: src/dobby/bot/handlers/settings.py:140
+msgid "✅ Saved."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:283
+msgid "New anniversary"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:342
+#: src/dobby/bot/handlers/contacts.py:328
+#, python-brace-format
+msgid "Delete {name}?"
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:359
+#: src/dobby/bot/handlers/contacts.py:345
+msgid "🗑 Deleted."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:374
+msgid "Send a new title."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:389
+#: src/dobby/bot/handlers/anniversaries.py:421
+msgid "Anniversary not found."
+msgstr ""
+
+#: src/dobby/bot/handlers/anniversaries.py:404
+msgid "Send a new date: 12.05 or 12.05.2015."
+msgstr ""
+
+#: src/dobby/bot/handlers/common.py:19
+msgid "Cancelled."
+msgstr ""
+
+msgid "🗑 Delete my data"
+msgstr ""
+
+msgid "This permanently deletes your account and all saved data. Continue?"
+msgstr ""
+
+msgid "Deleted."
+msgstr ""
+
+msgid "Your account and saved data were deleted."
+msgstr ""
+
+#: src/dobby/bot/handlers/common.py:26
+msgid ""
+"I can remember birthdays and anniversaries and congratulate people.\n"
+"\n"
+"/today — what is today\n"
+"/upcoming — the next 14 days\n"
+"/contacts — contact list\n"
+"/addcontact — add a contact\n"
+"/anniversaries — anniversary list\n"
+"/addanniversary — add an anniversary\n"
+"/subscriptions — what goes into the digest and the group\n"
+"/settings — time, reminders, language\n"
+"/bindgroup — bind this group (send it in the group)\n"
+"/cancel — cancel the current step"
+msgstr ""
+
+#: src/dobby/bot/handlers/common.py:47 src/dobby/bot/handlers/settings.py:265
+#: src/dobby/bot/handlers/start.py:41
+msgid "Choose an action:"
+msgstr ""
+
+#: src/dobby/bot/handlers/common.py:52
+msgid "Nothing to do here."
+msgstr ""
+
+#: src/dobby/bot/handlers/common.py:59
+msgid ""
+"Add me to the group, make me an administrator (or allow messages), then "
+"send /bindgroup in that group."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:60
+#, python-brace-format
+msgid "👥 {relation}"
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:94
+#, python-brace-format
+msgid "👥 Contacts ({total})"
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:95
+msgid "No contacts yet. Add the first one with /addcontact."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:121
+msgid "What is the name? Send /cancel to abort."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:134
+#: src/dobby/bot/handlers/contacts.py:371
+msgid "Please send a name up to 255 characters."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:139
+msgid "Date of birth? For example 12.05 or 12.05.1990. Send /cancel to abort."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:145
+msgid "Relation?"
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:154
+#: src/dobby/bot/handlers/contacts.py:405
+msgid "Invalid date. Try 12.05 or 12.05.1990."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:160
+msgid "Birth year? Send «-» if you don't know."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:174
+#: src/dobby/bot/handlers/contacts.py:177
+msgid "Invalid year. Send a year like 1990 or «-»."
+msgstr ""
+
+msgid "Telegram ID or @username of this person? It is used to mention them in the group and to look up their birthday. Send «-» to skip."
+msgstr ""
+
+msgid "Could not get the birthday from Telegram, please enter it."
+msgstr ""
+
+msgid "Birthday from Telegram profile: {date}"
+msgstr ""
+
+msgid "Invalid ID. Send a number like 123456789 or «-»."
+msgstr ""
+
+msgid "Telegram ID: {id}"
+msgstr ""
+
+msgid "➕ Added {name} from {group} to contacts: {date}"
+msgstr ""
+
+msgid "Could not find this username. Send the numeric Telegram ID instead, or «-»."
+msgstr ""
+
+msgid "🆔 Telegram ID"
+msgstr ""
+
+msgid "Send the Telegram ID, or «-» to remove it."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:228
+#, python-brace-format
+msgid "Name: {name}"
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:232
+#, python-brace-format
+msgid "Relation: {relation}"
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:269
+msgid "New contact"
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:362
+msgid "Send a new name."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:377
+#: src/dobby/bot/handlers/contacts.py:411
+msgid "Contact not found."
+msgstr ""
+
+#: src/dobby/bot/handlers/contacts.py:393
+msgid "Send a new date: 12.05 or 12.05.1990."
+msgstr ""
+
+#: src/dobby/bot/handlers/events.py:29
+msgid "Nothing to celebrate today."
+msgstr ""
+
+#: src/dobby/bot/handlers/events.py:47
+msgid "Send a number of days, for example /upcoming 30."
+msgstr ""
+
+#: src/dobby/bot/handlers/events.py:56
+#, python-brace-format
+msgid "No events in the next {n} days."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:27
+msgid "Send /bindgroup in the group you want me to post in."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:35
+msgid "Only a group administrator can bind this group."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:64
+msgid "✅ This group is bound. Congratulations will be posted here."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:73
+msgid "Send /unbindgroup in the group."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:81
+msgid "This group is not bound."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:96
+msgid "🔕 This group will no longer receive congratulations."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:108
+msgid "No group is bound. Add me to a group and send /bindgroup there."
+msgstr ""
+
+#: src/dobby/bot/handlers/groups.py:112
+msgid "Bound groups"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:53
+msgid "Settings"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:100
+msgid "Choose the digest time:"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:110
+msgid "Invalid time."
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:126
+msgid "Send the time in HH:MM format, for example 09:30."
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:135
+msgid "Invalid time. Send HH:MM, for example 09:30."
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:149
+msgid "Choose the time zone:"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:161
+msgid "Unknown time zone."
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:175
+#: src/dobby/bot/handlers/settings.py:188
+#: src/dobby/bot/handlers/settings.py:206
+msgid "Reminder settings:"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:198
+msgid "Invalid value."
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:237
+msgid "Choose the language:"
+msgstr ""
+
+#: src/dobby/bot/handlers/settings.py:247
+msgid "Unknown language."
+msgstr ""
+
+#: src/dobby/bot/handlers/start.py:25
+#, python-brace-format
+msgid ""
+"👋 Hi, {name}! I'm Dobby.\n"
+"\n"
+"I remember birthdays and anniversaries, send you a morning digest and "
+"congratulate people in your family group."
+msgstr ""
+
+#: src/dobby/bot/handlers/start.py:31
+msgid ""
+"👋 Hi! I'm Dobby.\n"
+"\n"
+"I remember birthdays and anniversaries, send you a morning digest and "
+"congratulate people in your family group."
+msgstr ""
+
+#: src/dobby/bot/handlers/start.py:46
+msgid "What do you want to add?"
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:50
+msgid "🎂 Birthday"
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:61
+msgid "Direct messages work only after the person starts the bot."
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:81
+msgid "Subscriptions"
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:83
+msgid "Choose an event to manage its channels."
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:84
+msgid "📩 digest · 🎉 group · ✉️ direct"
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:87
+msgid "No events here."
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:117
+#: src/dobby/bot/handlers/subscriptions.py:171
+msgid "Event not found."
+msgstr ""
+
+#: src/dobby/bot/handlers/subscriptions.py:173
+#: src/dobby/bot/handlers/subscriptions.py:193
+msgid "Updated."
+msgstr ""
+
+#: src/dobby/services/templates.py:21
+#, python-brace-format
+msgid "{n} year"
+msgid_plural "{n} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/dobby/services/templates.py:28
+#, python-brace-format
+msgid "• <b>{name}</b> — birthday, turns {age}"
+msgstr ""
+
+#: src/dobby/services/templates.py:31
+#, python-brace-format
+msgid "• <b>{name}</b> — birthday"
+msgstr ""
+
+#: src/dobby/services/templates.py:33
+#, python-brace-format
+msgid "• <b>{title}</b> — {years}"
+msgstr ""
+
+#: src/dobby/services/templates.py:36
+#, python-brace-format
+msgid "• <b>{title}</b>"
+msgstr ""
+
+#: src/dobby/services/templates.py:41
+msgid "Today"
+msgstr ""
+
+#: src/dobby/services/templates.py:43
+msgid "Have a good day!"
+msgstr ""
+
+msgid "Make it a great day!"
+msgstr ""
+
+msgid "Don't forget to say hello!"
+msgstr ""
+
+msgid "Warm wishes to everyone!"
+msgstr ""
+
+msgid "Enjoy the celebrations!"
+msgstr ""
+
+msgid "Smiles and good mood today!"
+msgstr ""
+
+#: src/dobby/services/templates.py:49
+#, python-brace-format
+msgid "⏰ In {n} day"
+msgid_plural "⏰ In {n} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/dobby/services/templates.py:60
+#, python-brace-format
+msgid "🎉 <b>Happy birthday, {name}!</b>"
+msgstr ""
+
+#: src/dobby/services/templates.py:62
+#, python-brace-format
+msgid "🎂 {age}"
+msgstr ""
+
+#: src/dobby/services/templates.py:67 src/dobby/services/templates.py:68
+#, python-brace-format
+msgid "🎉 <b>{title}</b>"
+msgstr ""
+
+#: src/dobby/services/templates.py:72
+#, python-brace-format
+msgid ""
+"🕯 <b>In memory: {title}</b>\n"
+"{years}"
+msgstr ""
+
+#: src/dobby/services/templates.py:76
+#, python-brace-format
+msgid "💍 <b>{title}: {years}</b>"
+msgstr ""
+
+#: src/dobby/services/templates.py:77
+#, python-brace-format
+msgid "🎉 <b>{title}</b> — {years}"
+msgstr ""
+
+#: src/dobby/services/templates.py:88
+#, python-brace-format
+msgid "Next {n} days"
+msgstr ""
