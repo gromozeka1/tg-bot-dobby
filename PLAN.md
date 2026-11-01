@@ -318,7 +318,6 @@ The repository currently contains the package/configuration scaffold, Russian ge
 
 1. Run a real test-bot E2E for group binding, delivery, catch-up, and restart behavior (include: Group Privacy off for member collection, mention reply, member import).
 2. Validate scheduled-task and backup recovery on the target Windows account, then expand handler/repository tests as needed (mention reply, edit Telegram ID, delete flows).
-3. Make the first git commit (the repository still has no commits).
-4. Optional: run `ruff format` on the remaining pre-existing files.
+3. Optional: run `ruff format` on the remaining pre-existing files.
 
 No public server or paid infrastructure is required.
